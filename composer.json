@@ -1,0 +1,26 @@
+{
+    "name" : "moriony/service-manager",
+    "description": "Simple service manager based on Pimple",
+    "keywords": ["service manager", "pimple"],
+    "homepage": "https://github.com/moriony/service-manager",
+    "type": "library",
+    "license":  "MIT",
+    "require": {
+        "php": ">=5.3",
+        "pimple/pimple": "1.0.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "authors": [
+        {
+            "name": "Vitaliy Chesnokov",
+            "email": "demateus@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-0": {
+            "Moriony": "src/"
+        }
+    }
+}
