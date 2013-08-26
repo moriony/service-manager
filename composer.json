@@ -10,6 +10,7 @@
         "pimple/pimple": "1.0.*"
     },
     "require-dev": {
+        "satooshi/php-coveralls": "*",
         "phpunit/phpunit": "*"
     },
     "authors": [
