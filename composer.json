@@ -7,7 +7,7 @@
     "license":  "MIT",
     "require": {
         "php": ">=5.3",
-        "pimple/pimple": ">=1,<=2.0"
+        "pimple/pimple": "*"
     },
     "require-dev": {
         "satooshi/php-coveralls": "*",
